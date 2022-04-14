@@ -1,0 +1,37 @@
+
+body {
+	background: #d2dfff;
+	font-family: Arial, 'sans serif';
+	border: 4px solid red;
+	margin: 10px;
+	padding: 10px;
+}
+
+
+
+/* ------------ Grid Küchenutensilien ---------- */
+
+
+
+/* ------------ Grid Rezept ---------- */
+
+.zutatenBox {
+	background-color: white;
+	padding: 10px;
+	-webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 24px 27px rgba(0,0,0,0); 
+	box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 24px 27px rgba(0,0,0,0);
+
+/* schatten generiert mit
+https://html-css-js.com/css/generator/box-shadow/ */
+
+}
+
+.kuchenrezept {
+	padding: 10px;
+	border: 4px solid green;
+	display: grid;
+	gap: 20px;
+	grid-template-columns: 300px 180px 180px;
+}
+
+
